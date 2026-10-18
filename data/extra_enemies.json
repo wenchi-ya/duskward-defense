@@ -1,0 +1,73 @@
+{
+  "runner": {
+    "name": "红巾斥候",
+    "hp": 78,
+    "speed": 84,
+    "armor": 0.05,
+    "resist": 0,
+    "reward": 13,
+    "damage": 8,
+    "air": false,
+    "sprite": "goblin",
+    "tint": "ffd7a3"
+  },
+  "shaman": {
+    "name": "紫袍萨满",
+    "hp": 155,
+    "speed": 39,
+    "armor": 0,
+    "resist": 0.65,
+    "reward": 21,
+    "damage": 12,
+    "air": false,
+    "sprite": "shaman"
+  },
+  "bat": {
+    "name": "夜翼蝠",
+    "hp": 82,
+    "speed": 65,
+    "armor": 0,
+    "resist": 0.1,
+    "reward": 13,
+    "damage": 6,
+    "air": true,
+    "sprite": "bat"
+  },
+  "ogre": {
+    "name": "山地巨魔",
+    "hp": 520,
+    "speed": 24,
+    "armor": 0.2,
+    "resist": 0.1,
+    "reward": 42,
+    "damage": 26,
+    "air": false,
+    "sprite": "brute",
+    "scale": 1.35,
+    "tint": "b7d7b2"
+  },
+  "frostwolf": {
+    "name": "霜牙狼",
+    "hp": 150,
+    "speed": 69,
+    "armor": 0,
+    "resist": 0.4,
+    "reward": 20,
+    "damage": 14,
+    "air": false,
+    "sprite": "wolf",
+    "tint": "b6e5ff"
+  },
+  "raider": {
+    "name": "铁甲战士",
+    "hp": 340,
+    "speed": 34,
+    "armor": 0.65,
+    "resist": 0,
+    "reward": 31,
+    "damage": 18,
+    "air": false,
+    "sprite": "brute",
+    "tint": "c9d3df"
+  }
+}

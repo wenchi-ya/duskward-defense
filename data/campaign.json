@@ -1,0 +1,1228 @@
+[
+  {
+    "id": "village_01",
+    "name": "溪谷村口",
+    "biome": "village",
+    "description": "村庄入口 · 学习布防与集结",
+    "initial_gold": 360,
+    "path": [
+      [
+        -50,
+        245
+      ],
+      [
+        185,
+        245
+      ],
+      [
+        285,
+        345
+      ],
+      [
+        285,
+        505
+      ],
+      [
+        430,
+        565
+      ],
+      [
+        620,
+        565
+      ],
+      [
+        745,
+        455
+      ],
+      [
+        745,
+        265
+      ],
+      [
+        870,
+        210
+      ],
+      [
+        1030,
+        210
+      ],
+      [
+        1155,
+        300
+      ],
+      [
+        1490,
+        300
+      ]
+    ],
+    "pads": [
+      [
+        170,
+        360
+      ],
+      [
+        390,
+        280
+      ],
+      [
+        405,
+        445
+      ],
+      [
+        535,
+        670
+      ],
+      [
+        640,
+        430
+      ],
+      [
+        860,
+        370
+      ],
+      [
+        970,
+        325
+      ],
+      [
+        1110,
+        410
+      ]
+    ],
+    "waves": [
+      [
+        {
+          "kind": "goblin",
+          "count": 7,
+          "interval": 1.5
+        }
+      ],
+      [
+        {
+          "kind": "goblin",
+          "count": 9,
+          "interval": 1.1
+        },
+        {
+          "kind": "wolf",
+          "count": 4,
+          "interval": 1
+        }
+      ],
+      [
+        {
+          "kind": "wolf",
+          "count": 9,
+          "interval": 0.8
+        }
+      ],
+      [
+        {
+          "kind": "brute",
+          "count": 3,
+          "interval": 2
+        },
+        {
+          "kind": "goblin",
+          "count": 12,
+          "interval": 0.7
+        }
+      ],
+      [
+        {
+          "kind": "wolf",
+          "count": 12,
+          "interval": 0.65
+        },
+        {
+          "kind": "brute",
+          "count": 4,
+          "interval": 1.6
+        }
+      ],
+      [
+        {
+          "kind": "brute",
+          "count": 7,
+          "interval": 1.5
+        },
+        {
+          "kind": "goblin",
+          "count": 16,
+          "interval": 0.55
+        }
+      ],
+      [
+        {
+          "kind": "wolf",
+          "count": 18,
+          "interval": 0.5
+        },
+        {
+          "kind": "brute",
+          "count": 8,
+          "interval": 1.3
+        }
+      ],
+      [
+        {
+          "kind": "brute",
+          "count": 12,
+          "interval": 1.2
+        },
+        {
+          "kind": "wolf",
+          "count": 20,
+          "interval": 0.45
+        }
+      ]
+    ],
+    "road": [
+      "75804e",
+      "ac9158",
+      "c9aa70",
+      "ddc18b"
+    ],
+    "initial_lives": 20,
+    "background": "res://art/gameplay/village-terrain-v1.png"
+  },
+  {
+    "id": "forest_02",
+    "name": "林间古道",
+    "biome": "forest",
+    "description": "回环林道 · 提防斥候和空中夜翼",
+    "initial_gold": 400,
+    "path": [
+      [
+        -50,
+        420
+      ],
+      [
+        180,
+        420
+      ],
+      [
+        330,
+        240
+      ],
+      [
+        580,
+        240
+      ],
+      [
+        680,
+        420
+      ],
+      [
+        520,
+        620
+      ],
+      [
+        820,
+        620
+      ],
+      [
+        1000,
+        440
+      ],
+      [
+        1200,
+        440
+      ],
+      [
+        1490,
+        440
+      ]
+    ],
+    "pads": [
+      [
+        170,
+        300
+      ],
+      [
+        350,
+        430
+      ],
+      [
+        490,
+        345
+      ],
+      [
+        695,
+        265
+      ],
+      [
+        415,
+        610
+      ],
+      [
+        700,
+        735
+      ],
+      [
+        840,
+        470
+      ],
+      [
+        1040,
+        560
+      ],
+      [
+        1130,
+        330
+      ]
+    ],
+    "road": [
+      "354b37",
+      "716d43",
+      "a38e59",
+      "c6b479"
+    ],
+    "initial_lives": 20,
+    "background": "res://art/campaign/forest.png",
+    "waves": [
+      [
+        {
+          "kind": "goblin",
+          "count": 6,
+          "interval": 1.35
+        }
+      ],
+      [
+        {
+          "kind": "goblin",
+          "count": 7,
+          "interval": 1.2850000000000001
+        }
+      ],
+      [
+        {
+          "kind": "runner",
+          "count": 8,
+          "interval": 1.2200000000000002
+        },
+        {
+          "kind": "bat",
+          "count": 4,
+          "interval": 1.22
+        }
+      ],
+      [
+        {
+          "kind": "runner",
+          "count": 9,
+          "interval": 1.155
+        },
+        {
+          "kind": "goblin",
+          "count": 4,
+          "interval": 1.1800000000000002
+        }
+      ],
+      [
+        {
+          "kind": "wolf",
+          "count": 10,
+          "interval": 1.09
+        },
+        {
+          "kind": "runner",
+          "count": 5,
+          "interval": 1.1400000000000001
+        }
+      ],
+      [
+        {
+          "kind": "wolf",
+          "count": 11,
+          "interval": 1.0250000000000001
+        },
+        {
+          "kind": "wolf",
+          "count": 5,
+          "interval": 1.1
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 12,
+          "interval": 0.9600000000000001
+        },
+        {
+          "kind": "bat",
+          "count": 6,
+          "interval": 1.06
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 14,
+          "interval": 0.895
+        },
+        {
+          "kind": "goblin",
+          "count": 6,
+          "interval": 1.02
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 15,
+          "interval": 0.8300000000000001
+        },
+        {
+          "kind": "runner",
+          "count": 7,
+          "interval": 0.98
+        }
+      ]
+    ]
+  },
+  {
+    "id": "canyon_03",
+    "name": "峡谷矿区",
+    "biome": "canyon",
+    "description": "折返矿道 · 物理护甲与飞行混编",
+    "initial_gold": 450,
+    "path": [
+      [
+        -50,
+        220
+      ],
+      [
+        250,
+        220
+      ],
+      [
+        430,
+        390
+      ],
+      [
+        250,
+        590
+      ],
+      [
+        590,
+        590
+      ],
+      [
+        760,
+        400
+      ],
+      [
+        930,
+        580
+      ],
+      [
+        1180,
+        580
+      ],
+      [
+        1180,
+        250
+      ],
+      [
+        1490,
+        250
+      ]
+    ],
+    "pads": [
+      [
+        180,
+        340
+      ],
+      [
+        420,
+        250
+      ],
+      [
+        450,
+        500
+      ],
+      [
+        160,
+        570
+      ],
+      [
+        610,
+        435
+      ],
+      [
+        760,
+        610
+      ],
+      [
+        930,
+        440
+      ],
+      [
+        1080,
+        680
+      ],
+      [
+        1060,
+        300
+      ],
+      [
+        1290,
+        370
+      ]
+    ],
+    "road": [
+      "815740",
+      "aa7851",
+      "d6a86b",
+      "e5c18b"
+    ],
+    "initial_lives": 20,
+    "background": "res://art/campaign/canyon.png",
+    "waves": [
+      [
+        {
+          "kind": "goblin",
+          "count": 6,
+          "interval": 1.35
+        }
+      ],
+      [
+        {
+          "kind": "goblin",
+          "count": 7,
+          "interval": 1.2850000000000001
+        }
+      ],
+      [
+        {
+          "kind": "brute",
+          "count": 8,
+          "interval": 1.2200000000000002
+        },
+        {
+          "kind": "goblin",
+          "count": 4,
+          "interval": 1.22
+        }
+      ],
+      [
+        {
+          "kind": "brute",
+          "count": 9,
+          "interval": 1.155
+        },
+        {
+          "kind": "brute",
+          "count": 4,
+          "interval": 1.1800000000000002
+        }
+      ],
+      [
+        {
+          "kind": "raider",
+          "count": 10,
+          "interval": 1.09
+        },
+        {
+          "kind": "raider",
+          "count": 5,
+          "interval": 1.1400000000000001
+        }
+      ],
+      [
+        {
+          "kind": "raider",
+          "count": 11,
+          "interval": 1.0250000000000001
+        },
+        {
+          "kind": "bat",
+          "count": 5,
+          "interval": 1.1
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 12,
+          "interval": 0.9600000000000001
+        },
+        {
+          "kind": "goblin",
+          "count": 6,
+          "interval": 1.06
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 14,
+          "interval": 0.895
+        },
+        {
+          "kind": "brute",
+          "count": 6,
+          "interval": 1.02
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 15,
+          "interval": 0.8300000000000001
+        },
+        {
+          "kind": "raider",
+          "count": 7,
+          "interval": 0.98
+        }
+      ]
+    ]
+  },
+  {
+    "id": "swamp_04",
+    "name": "沼泽遗迹",
+    "biome": "swamp",
+    "description": "潮湿遗迹 · 魔抗萨满与地空夹击",
+    "initial_gold": 500,
+    "path": [
+      [
+        -50,
+        580
+      ],
+      [
+        250,
+        580
+      ],
+      [
+        340,
+        490
+      ],
+      [
+        340,
+        290
+      ],
+      [
+        600,
+        290
+      ],
+      [
+        600,
+        550
+      ],
+      [
+        900,
+        550
+      ],
+      [
+        900,
+        250
+      ],
+      [
+        1180,
+        250
+      ],
+      [
+        1490,
+        250
+      ]
+    ],
+    "pads": [
+      [
+        170,
+        475
+      ],
+      [
+        240,
+        335
+      ],
+      [
+        460,
+        405
+      ],
+      [
+        700,
+        235
+      ],
+      [
+        710,
+        440
+      ],
+      [
+        790,
+        660
+      ],
+      [
+        1040,
+        565
+      ],
+      [
+        1030,
+        365
+      ],
+      [
+        1160,
+        370
+      ]
+    ],
+    "road": [
+      "3b5147",
+      "657052",
+      "87956c",
+      "a7b28c"
+    ],
+    "initial_lives": 20,
+    "background": "res://art/campaign/swamp.png",
+    "waves": [
+      [
+        {
+          "kind": "goblin",
+          "count": 6,
+          "interval": 1.35
+        }
+      ],
+      [
+        {
+          "kind": "goblin",
+          "count": 7,
+          "interval": 1.2850000000000001
+        }
+      ],
+      [
+        {
+          "kind": "wolf",
+          "count": 8,
+          "interval": 1.2200000000000002
+        },
+        {
+          "kind": "wolf",
+          "count": 4,
+          "interval": 1.22
+        }
+      ],
+      [
+        {
+          "kind": "wolf",
+          "count": 9,
+          "interval": 1.155
+        },
+        {
+          "kind": "shaman",
+          "count": 4,
+          "interval": 1.1800000000000002
+        }
+      ],
+      [
+        {
+          "kind": "shaman",
+          "count": 10,
+          "interval": 1.09
+        },
+        {
+          "kind": "bat",
+          "count": 5,
+          "interval": 1.1400000000000001
+        }
+      ],
+      [
+        {
+          "kind": "shaman",
+          "count": 11,
+          "interval": 1.0250000000000001
+        },
+        {
+          "kind": "goblin",
+          "count": 5,
+          "interval": 1.1
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 12,
+          "interval": 0.9600000000000001
+        },
+        {
+          "kind": "wolf",
+          "count": 6,
+          "interval": 1.06
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 14,
+          "interval": 0.895
+        },
+        {
+          "kind": "shaman",
+          "count": 6,
+          "interval": 1.02
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 15,
+          "interval": 0.8300000000000001
+        },
+        {
+          "kind": "bat",
+          "count": 7,
+          "interval": 0.98
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 16,
+          "interval": 0.7650000000000001
+        },
+        {
+          "kind": "goblin",
+          "count": 7,
+          "interval": 0.9400000000000001
+        }
+      ]
+    ]
+  },
+  {
+    "id": "snow_05",
+    "name": "雪地要塞",
+    "biome": "snow",
+    "description": "雪原长路 · 霜牙狼与重装巨魔",
+    "initial_gold": 520,
+    "path": [
+      [
+        -50,
+        350
+      ],
+      [
+        260,
+        350
+      ],
+      [
+        420,
+        160
+      ],
+      [
+        700,
+        160
+      ],
+      [
+        840,
+        350
+      ],
+      [
+        650,
+        550
+      ],
+      [
+        950,
+        650
+      ],
+      [
+        1160,
+        460
+      ],
+      [
+        1490,
+        460
+      ]
+    ],
+    "pads": [
+      [
+        170,
+        240
+      ],
+      [
+        380,
+        345
+      ],
+      [
+        540,
+        270
+      ],
+      [
+        860,
+        225
+      ],
+      [
+        675,
+        390
+      ],
+      [
+        550,
+        545
+      ],
+      [
+        820,
+        700
+      ],
+      [
+        980,
+        510
+      ],
+      [
+        1120,
+        335
+      ]
+    ],
+    "road": [
+      "849fa9",
+      "a9bdc5",
+      "d2dfe2",
+      "edf0e7"
+    ],
+    "initial_lives": 20,
+    "background": "res://art/campaign/snow.png",
+    "waves": [
+      [
+        {
+          "kind": "wolf",
+          "count": 6,
+          "interval": 1.35
+        }
+      ],
+      [
+        {
+          "kind": "wolf",
+          "count": 7,
+          "interval": 1.2850000000000001
+        }
+      ],
+      [
+        {
+          "kind": "frostwolf",
+          "count": 8,
+          "interval": 1.2200000000000002
+        },
+        {
+          "kind": "frostwolf",
+          "count": 4,
+          "interval": 1.22
+        }
+      ],
+      [
+        {
+          "kind": "frostwolf",
+          "count": 9,
+          "interval": 1.155
+        },
+        {
+          "kind": "raider",
+          "count": 4,
+          "interval": 1.1800000000000002
+        }
+      ],
+      [
+        {
+          "kind": "raider",
+          "count": 10,
+          "interval": 1.09
+        },
+        {
+          "kind": "ogre",
+          "count": 2,
+          "interval": 1.1400000000000001
+        }
+      ],
+      [
+        {
+          "kind": "raider",
+          "count": 11,
+          "interval": 1.0250000000000001
+        },
+        {
+          "kind": "bat",
+          "count": 5,
+          "interval": 1.1
+        }
+      ],
+      [
+        {
+          "kind": "ogre",
+          "count": 4,
+          "interval": 0.9600000000000001
+        },
+        {
+          "kind": "wolf",
+          "count": 6,
+          "interval": 1.06
+        }
+      ],
+      [
+        {
+          "kind": "ogre",
+          "count": 4,
+          "interval": 0.895
+        },
+        {
+          "kind": "frostwolf",
+          "count": 6,
+          "interval": 1.02
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 15,
+          "interval": 0.8300000000000001
+        },
+        {
+          "kind": "raider",
+          "count": 7,
+          "interval": 0.98
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 16,
+          "interval": 0.7650000000000001
+        },
+        {
+          "kind": "ogre",
+          "count": 2,
+          "interval": 0.9400000000000001
+        }
+      ]
+    ]
+  },
+  {
+    "id": "volcano_06",
+    "name": "火山关隘",
+    "biome": "volcano",
+    "description": "熔岩终战 · 全类型敌军交替进攻",
+    "initial_gold": 580,
+    "path": [
+      [
+        -50,
+        430
+      ],
+      [
+        230,
+        430
+      ],
+      [
+        230,
+        230
+      ],
+      [
+        520,
+        230
+      ],
+      [
+        700,
+        400
+      ],
+      [
+        520,
+        600
+      ],
+      [
+        850,
+        650
+      ],
+      [
+        1050,
+        450
+      ],
+      [
+        1050,
+        240
+      ],
+      [
+        1490,
+        240
+      ]
+    ],
+    "pads": [
+      [
+        120,
+        310
+      ],
+      [
+        340,
+        340
+      ],
+      [
+        480,
+        345
+      ],
+      [
+        540,
+        445
+      ],
+      [
+        745,
+        500
+      ],
+      [
+        450,
+        665
+      ],
+      [
+        790,
+        745
+      ],
+      [
+        1000,
+        630
+      ],
+      [
+        1160,
+        430
+      ],
+      [
+        1240,
+        350
+      ]
+    ],
+    "road": [
+      "342f30",
+      "554441",
+      "80624e",
+      "a18564"
+    ],
+    "initial_lives": 20,
+    "background": "res://art/campaign/volcano.png",
+    "waves": [
+      [
+        {
+          "kind": "runner",
+          "count": 6,
+          "interval": 1.35
+        }
+      ],
+      [
+        {
+          "kind": "runner",
+          "count": 7,
+          "interval": 1.2850000000000001
+        }
+      ],
+      [
+        {
+          "kind": "brute",
+          "count": 8,
+          "interval": 1.2200000000000002
+        },
+        {
+          "kind": "runner",
+          "count": 4,
+          "interval": 1.22
+        }
+      ],
+      [
+        {
+          "kind": "brute",
+          "count": 9,
+          "interval": 1.155
+        },
+        {
+          "kind": "brute",
+          "count": 4,
+          "interval": 1.1800000000000002
+        }
+      ],
+      [
+        {
+          "kind": "shaman",
+          "count": 10,
+          "interval": 1.09
+        },
+        {
+          "kind": "shaman",
+          "count": 5,
+          "interval": 1.1400000000000001
+        }
+      ],
+      [
+        {
+          "kind": "shaman",
+          "count": 11,
+          "interval": 1.0250000000000001
+        },
+        {
+          "kind": "frostwolf",
+          "count": 5,
+          "interval": 1.1
+        }
+      ],
+      [
+        {
+          "kind": "frostwolf",
+          "count": 12,
+          "interval": 0.9600000000000001
+        },
+        {
+          "kind": "raider",
+          "count": 6,
+          "interval": 1.06
+        }
+      ],
+      [
+        {
+          "kind": "frostwolf",
+          "count": 14,
+          "interval": 0.895
+        },
+        {
+          "kind": "bat",
+          "count": 6,
+          "interval": 1.02
+        }
+      ],
+      [
+        {
+          "kind": "raider",
+          "count": 15,
+          "interval": 0.8300000000000001
+        },
+        {
+          "kind": "ogre",
+          "count": 2,
+          "interval": 0.98
+        }
+      ],
+      [
+        {
+          "kind": "raider",
+          "count": 16,
+          "interval": 0.7650000000000001
+        },
+        {
+          "kind": "runner",
+          "count": 7,
+          "interval": 0.9400000000000001
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 17,
+          "interval": 0.7000000000000001
+        },
+        {
+          "kind": "brute",
+          "count": 8,
+          "interval": 0.9
+        }
+      ],
+      [
+        {
+          "kind": "bat",
+          "count": 18,
+          "interval": 0.635
+        },
+        {
+          "kind": "shaman",
+          "count": 8,
+          "interval": 0.8600000000000001
+        }
+      ]
+    ]
+  }
+]

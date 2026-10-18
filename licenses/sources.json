@@ -1,0 +1,49 @@
+{
+  "updated": "2026-10-18",
+  "sources": [
+    {
+      "item": "Godot 4.7.2 standard Windows x64",
+      "source": "https://godotengine.org/download/windows/",
+      "license": "MIT and bundled third-party notices",
+      "notice": "Engine is a local development tool. Before redistributing a game package, include the engine and relevant third-party notices.",
+      "license_url": "https://godotengine.org/license/"
+    },
+    {
+      "item": "art/concepts/village-style-v1.png",
+      "source": "Built-in image_gen in this conversation",
+      "purpose": "User-approved visual direction as of 2026-10-18; menu backdrop and art reference",
+      "prompt": "art/concepts/village-style-v1.prompt.txt",
+      "notice": "Generated original concept; not a third-party game asset. No external paid API was invoked."
+    },
+    {
+      "item": "art/gameplay/village-terrain-v1.png and art/gameplay/units-towers-v1.png",
+      "source": "Built-in image_gen with approved concept as style reference",
+      "purpose": "First painted terrain and transparent tower/unit atlas integrated into gameplay",
+      "prompt": "art/gameplay/generation-prompts-v1.txt",
+      "notice": "Original generated game assets. Alpha bounds measured in scripts/art_atlas.gd; no external paid API used."
+    },
+    {
+      "item": "Procedural roads, command icons, animation and visual effects",
+      "source": "Project scripts/board.gd, command_button.gd, battle.gd and main.gd",
+      "notice": "Created for this project; no downloaded icon pack. Audio is recorded separately below."
+    },
+    {
+      "item": "Chinese UI font",
+      "source": "SystemFont using fonts already installed on the user's Windows system",
+      "notice": "No font files are bundled or redistributed. A redistributable font must be selected if packaging requires one."
+    },
+    {
+      "item": "art/campaign/{forest,canyon,swamp,snow,volcano}.png; art/towers/{archer,barracks,mage,cannon}.png; art/units/{soldier,goblin,wolf,brute,bat,shaman}.png; art/icons/{meteor,reinforce}.png",
+      "source": "Built-in image_gen using the user-approved concept as a style reference",
+      "purpose": "Six-map campaign extension, distinct architectural grades, six-frame walk/flap and six-frame attack cycles, painted ability icons",
+      "prompt": "art/generation-prompts-v3.txt",
+      "notice": "17 generated PNG assets; no external paid API. Source images preserved. Alpha regions and foot offsets inspected by tools/import_art.gd and stored in data/art_manifest.json. Nine gameplay enemy types use five enemy species animation sets plus one friendly soldier set."
+    },
+    {
+      "item": "audio/music/*.wav and audio/sfx/*.wav",
+      "source": "Original composition and procedural synthesis in audio/generate_audio.py, Python standard library only",
+      "purpose": "Three looping fantasy scores and fourteen UI/combat/result cues",
+      "notice": "Created for this project without external recordings, sampled instruments, borrowed commercial melodies, paid services or runtime network dependencies. Reproducible from source. Audio playback and balance still require user listening feedback."
+    }
+  ]
+}

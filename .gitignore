@@ -1,0 +1,13 @@
+/.godot/
+/tools/*
+!/tools/.gdignore
+!/tools/import_art.gd
+/builds/
+*.tmp
+/tests/output/*
+!/tests/output/.gdignore
+*.log
+__pycache__/
+.env
+.env.*
+!.env.example
